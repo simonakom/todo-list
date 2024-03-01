@@ -40,21 +40,21 @@ return (
 <div className="min-h-screen flex flex-col justify-center items-center my-10">
   <img className='max-w-[180px]' src="./public/sticky-note.png" alt="logo" />
   
-  <div className="min-w-[500px] max-w-[500px]">
+  <div className="md:min-w-[500px] sm:min-w-[350px]">
     <h1 className="text-3xl font-bold my-5">List</h1>
 
-    <div className="flex gap-3">
+    <div className="flex flex-col md:flex-row gap-3 items-center">
       <input 
         type="text" 
         value={newTask} 
         onChange={(e)=> setNewTask(e.target.value)} 
         onKeyPress={handleKeyPress} 
         placeholder="Add a new task" 
-        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow"
+        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow sm:min-w-[400px]"
       />
       <button 
         onClick={addTask} 
-        className="bg-[#9d9dd7] text-white hover:bg-[#9292db] duration-300 hover:scale-110 rounded-md px-4 whitespace-nowrap"
+        className="bg-[#9d9dd7] text-white hover:bg-[#9292db] duration-300 hover:scale-110 rounded-md px-4 py-3 max-w-[100px]"
             >Add Task
       </button>
     </div>
