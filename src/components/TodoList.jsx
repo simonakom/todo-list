@@ -38,7 +38,7 @@ const deleteTask = (index) => { // deletes a task from the tasks array based on 
 }
   
 return (
-<div className="min-h-screen flex flex-col justify-center items-center my-10">
+<div className="min-h-screen flex flex-col items-center mb-10 mt-20">
   <img className='max-w-[180px]' src={appImage} alt="logo" />
   
   <div className="md:min-w-[500px] sm:min-w-[350px]">
