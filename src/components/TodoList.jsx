@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { CiCircleCheck } from "react-icons/ci";
+import appImage from '../../public/sticky-note.png'; 
 
 const TodoList = () => {
 const [tasks, setTasks] = useState(getAllTasks) //array to store the list of tasks.
@@ -38,7 +39,7 @@ const deleteTask = (index) => { // deletes a task from the tasks array based on 
   
 return (
 <div className="min-h-screen flex flex-col justify-center items-center my-10">
-  <img className='max-w-[180px]' src="./public/sticky-note.png" alt="logo" />
+  <img className='max-w-[180px]' src={appImage} alt="logo" />
   
   <div className="md:min-w-[500px] sm:min-w-[350px]">
     <h1 className="text-3xl font-bold my-5">List</h1>
