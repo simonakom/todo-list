@@ -39,11 +39,9 @@ const deleteTask = (index) => { // deletes a task from the tasks array based on 
   
 return (
 <div className="min-h-screen flex flex-col items-center mb-10 mt-20">
-  <img className='max-w-[180px]' src={appImage} alt="logo" />
-  
+  <img className='image max-w-[150px]' src={appImage} alt="logo" />
   <div className="md:min-w-[500px] sm:min-w-[350px]">
     <h1 className="text-3xl font-bold my-5">List</h1>
-
     <div className="flex flex-col md:flex-row gap-3 items-center">
       <input 
         type="text" 
@@ -59,7 +57,6 @@ return (
             >Add Task
       </button>
     </div>
-
         <ul className="my-7 text-justify  max-h-[300px] overflow-scroll">
           {tasks.map((task, index)=> ( // iterates over the tasks array, generating a list item (<li>) for each task.
             <li key={index} className=" flex justify-between items-center border-b border-gray-300 py-4 px-2 text-[#8c469b]">
@@ -69,7 +66,7 @@ return (
                     deleteTask(index)
                     }} 
                     className="text-[#833ea6] text-3xl duration-300 hover:scale-125 hover:text-[green] mx-3 "
-                ><CiCircleCheck />
+                    ><CiCircleCheck />
                 </button>
             </li>
           ))}

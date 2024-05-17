@@ -1,19 +1,18 @@
 
-# <span style="margin-right: 10px;"><img src="./public/sticky-note.png" alt="confetti" style="height: 2em; vertical-align: middle;"></span> To-do app
+# <span><img src="./public/sticky-note.png" alt="note" style="height: 1em;"></span> To-do app
 
-<div align="center">
-  <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="48 items"/> 
-  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20March%2001%2C%202024-267a60.svg" alt="Last update: February 15, 2024" /> 
-  <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="Updated for Node 20.10.0"/>
+<div">
+  <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="license"/> 
+  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20March%2001%2C%202024-267a60.svg" alt="update" /> 
+  <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%2020.10.0-187e25.svg" alt="node"/>
 </div>
 
 ## Welcome!
 
-This is a simple To-do responsive app - created using React Vite, Tailwind, localStorage.
+This is responsive To-do app - created using React Vite, Tailwind, localStorage.
 
-🔹 Preview -  <a href="https://simonakom.github.io/todo-list/dist/index.html" style="font-size:small;">View</a><h4>
+🔹 Preview -  <a href="https://simonakom.github.io/todo-list/dist/index.html">View</a><h4>
  
-
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
