@@ -41,7 +41,7 @@ return (
 <div className="min-h-screen flex flex-col items-center mb-10 mt-20">
   <img className='image max-w-[150px]' src={appImage} alt="logo" />
   <div className="md:min-w-[500px] sm:min-w-[350px] max-w-[600px] mx-20">
-    <h1 className="text-3xl font-bold my-5">List</h1>
+    <h1 className="text-3xl font-bold my-5 2xl:text-start xl:text-start lg:text-start md:text-start sm:text-center text-center">List</h1>
     <div className="flex flex-col md:flex-row gap-3 items-center">
       <input 
         type="text" 
