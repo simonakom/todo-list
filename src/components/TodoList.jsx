@@ -49,7 +49,7 @@ return (
         onChange={(e)=> setNewTask(e.target.value)} 
         onKeyPress={handleKeyPress} 
         placeholder="Add a new task" 
-        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow sm:min-w-[400px]"
+        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow min-w-[290px]"
       />
       <button 
         onClick={addTask} 
