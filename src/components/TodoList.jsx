@@ -41,15 +41,15 @@ return (
 <div className="min-h-screen flex flex-col items-center mb-10 mt-20">
   <img className='image max-w-[150px]' src={appImage} alt="logo" />
   <div className="md:min-w-[500px] sm:min-w-[350px] max-w-[600px] mx-20">
-    <h1 className="text-3xl font-bold my-5 2xl:text-start xl:text-start lg:text-start md:text-start sm:text-center text-center">List</h1>
-    <div className="flex flex-col md:flex-row gap-3 items-center">
+    <h1 className="text-3xl font-bold my-5 2xl:text-start xl:text-start lg:text-start md:text-start sm:text-start text-center">List</h1>
+    <div className="flex flex-col sm:flex-row gap-3 items-center">
       <input 
         type="text" 
         value={newTask} 
         onChange={(e)=> setNewTask(e.target.value)} 
         onKeyPress={handleKeyPress} 
         placeholder="Add a new task" 
-        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow min-w-[290px]"
+        className="border border-gray-300 rounded-md text-[#4c4c70] px-4 py-3 flex-grow sm:min-w-[360px] min-w-[290px]"
       />
       <button 
         onClick={addTask} 
@@ -59,8 +59,8 @@ return (
     </div>
         <ul className="my-7 text-justify  max-h-[300px] overflow-scroll">
           {tasks.map((task, index)=> ( // iterates over the tasks array, generating a list item (<li>) for each task.
-            <li key={index} className=" flex justify-between items-center border-b border-gray-300 py-4 px-2 text-[#8c469b]">
-              <span>{task}</span>
+            <li key={index} className="task-item flex justify-between items-center border-b border-gray-300 py-4 px-2 text-[#8c469b]">
+              <span className='task-text'>{task}</span>
                 <button 
                     onClick={()=> {
                     deleteTask(index)

@@ -5,6 +5,9 @@
 body {
     background-color: rgb(249, 246, 250);
 }
+.task-item:hover .task-text {
+  text-decoration: line-through;
+}
 
 @media (max-width: 400px) {
     .image{
