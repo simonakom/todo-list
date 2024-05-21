@@ -1,5 +1,5 @@
 
-# <span><img src="./public/sticky-note.png" alt="note" style="height: 1em;"></span> To-do app
+# <span><img src="./public/sticky-note.png" alt="todo" style="height: 1em;"></span> To-do app
 
 <div>
   <img src="https://img.shields.io/badge/📖%20license-%20MIT-a964d0.svg" alt="license"/> 
